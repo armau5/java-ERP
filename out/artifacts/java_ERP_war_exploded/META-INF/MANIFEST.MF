@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Arman
+Build-Jdk: Oracle OpenJDK version 17.0.1
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: groupId
+Main-Class: ${start-class}
+

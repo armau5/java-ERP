@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="java-ERP:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="java-ERP:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/java_ERP_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
@@ -12,6 +12,7 @@
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: com.oracle:ojdbc8:12.2.0" />
         </element>
+        <element id="javaee-facet-resources" facet="java-ERP/web/Web" />
       </element>
       <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:unknown" />
       <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:unknown" />
@@ -21,7 +22,6 @@
       <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jersey:unknown" />
       <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:unknown" />
       <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-devtools:unknown" />
-      <element id="javaee-facet-resources" facet="java-ERP/web/Web" />
     </root>
   </artifact>
 </component>
