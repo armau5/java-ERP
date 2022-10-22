@@ -14,7 +14,7 @@ public class User extends BaseTO {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user")
     @SequenceGenerator(name = "user", sequenceName = "seq_user", allocationSize = 1)
-    private long personId;
+    private long userId;
 
     @Column(columnDefinition = "varchar2(20)")
     @NotNull
@@ -65,12 +65,12 @@ public class User extends BaseTO {
     private long workPhoneNumber;
 
 
-    public long getPersonId() {
-        return personId;
+    public long getUserId() {
+        return userId;
     }
 
-    public User setPersonId(long personId) {
-        this.personId = personId;
+    public User setUserId(long userId) {
+        this.userId = userId;
         return this;
     }
 
